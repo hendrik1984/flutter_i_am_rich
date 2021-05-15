@@ -11,7 +11,8 @@ void main() {
           ),
           body: Center(
             child: Image(
-                image: NetworkImage('https://lh3.googleusercontent.com/proxy/ydzW5sfGxNQOg0H3NLEQ0h_c-7F_JS4MZlHjeqzChTzXwaxU9RtQlaC5jhkj1cJ2Zr0H1W7quHFFOMRl3w_C3mJo7OtJcZHHuPdu_7z6ePD7HswCkM3W6hSDIV1-O_CZZSBs')
+                // image: NetworkImage('https://lh3.googleusercontent.com/proxy/ydzW5sfGxNQOg0H3NLEQ0h_c-7F_JS4MZlHjeqzChTzXwaxU9RtQlaC5jhkj1cJ2Zr0H1W7quHFFOMRl3w_C3mJo7OtJcZHHuPdu_7z6ePD7HswCkM3W6hSDIV1-O_CZZSBs')
+              image: AssetImage('images/diamond.png')
             ),
           ),
           backgroundColor: Colors.blueGrey,
